@@ -682,7 +682,7 @@ function App() {
         <section className="reports" id="reports">
           <div className="section-heading" data-reveal>
             <span className="section-label">REPORTS</span>
-            <h2 className="section-title">VAPT reports</h2>
+          
             <p>
               Selected security assessment reports documenting vulnerability
               identification, exploitation, evidence collection, and reporting.
