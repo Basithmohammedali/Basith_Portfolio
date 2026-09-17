@@ -495,7 +495,7 @@ function App() {
 
             {[
               {
-                video: "/videos/wazuh.mp4", poster: "/thumbnails/wazuh.jpg", tag: "SOC DEMO · 01",
+                video: "videos/wazuh.mp4", poster: "thumbnails/wazuh.jpg", tag: "SOC DEMO · 01",
                 category: "SOC AUTOMATION", title: "Wazuh SOC Automation",
                 desc: "End-to-end SOC automation lab detecting Mimikatz activity with Wazuh and Sysmon, enriching the alert with VirusTotal, creating an alert in TheHive, and notifying the analyst by email.",
                 flow: ["Wazuh", "Sysmon", "Shuffle", "VirusTotal", "TheHive"],
@@ -504,7 +504,7 @@ function App() {
                 medium: "https://medium.com/@basithmohammedali7/building-a-home-soc-lab-wazuh-sysmon-thehive-shuffle-virustotal-mimikatz-detection-to-53d97148a692",
               },
               {
-                video: "/videos/ELK.mp4", poster: "/thumbnails/elastic.jpg", tag: "SOC DEMO · 02",
+                video: "videos/ELK.mp4", poster: "thumbnails/elastic.jpg", tag: "SOC DEMO · 02",
                 category: "SIEM + SOAR", title: "Elastic SOC Automation",
                 desc: "Automated security workflow using Elastic Security to detect SSH brute-force activity, forward alerts through Python and Shuffle, enrich the source IP with VirusTotal, and create an investigation-ready alert in TheHive.",
                 flow: ["Elastic", "Python", "Shuffle", "VirusTotal", "TheHive"],
@@ -513,7 +513,7 @@ function App() {
                 medium: "https://medium.com/@basithmohammedali7/building-an-automated-soc-lab-with-elastic-siem-shuffle-soar-virustotal-and-thehive-6cbd8d8724ea",
               },
               {
-                video: "/videos/splunk.mp4", poster: "/thumbnails/splunk.jpg", tag: "SOC DEMO · 03",
+                video: "videos/splunk.mp4", poster: "thumbnails/splunk.jpg", tag: "SOC DEMO · 03",
                 category: "AI-ASSISTED SOC", title: "Splunk AI-Assisted SOC",
                 desc: "A local AI-assisted SOC pipeline where Splunk detects failed Windows logins, n8n orchestrates the workflow, Ollama performs first-pass alert summarization, and Slack delivers the result to the analyst automatically.",
                 flow: ["Splunk", "n8n", "Ollama", "Slack", "Windows"],
@@ -522,7 +522,7 @@ function App() {
                 medium: "https://medium.com/@basithmohammedali7/building-a-home-soc-lab-with-splunk-n8n-ollama-and-slack-eaa4c0f2f138",
               },
               {
-                video: "/videos/firewall_noaudio.mp4", poster: "/thumbnails/pfsense.jpg", tag: "LAB DEMO · 04",
+                video: "videos/firewall_noaudio.mp4", poster: "thumbnails/pfsense.jpg", tag: "LAB DEMO · 04",
                 category: "NETWORK SECURITY", title: "pfSense Attack & Defense Lab",
                 desc: "Network security lab using Kali Linux, pfSense, and Ubuntu to simulate reconnaissance and SSH brute-force activity, implement NAT and firewall controls, inspect logs, and block malicious traffic.",
                 flow: ["Kali Linux", "pfSense", "Ubuntu", "Nmap", "Hydra"],
